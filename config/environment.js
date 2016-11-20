@@ -16,7 +16,15 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+
+    firebase: {
+      apiKey: 'AIzaSyAAXxD7kK-NCi08wM_m3e1oAEQZsA7eAeU',
+      authDomain: 'pyron-42121.firebaseapp.com',
+      databaseURL: "https://pyron-42121.firebaseio.com",
+      storageBucket: "pyron-42121.appspot.com",
+      messagingSenderId: "360483359316"
+    },
   };
 
   if (environment === 'development') {

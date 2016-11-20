@@ -1,0 +1,32 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="true">
+			<span class="sr-only">Toggle navigation</span>
+			<i class="icon-menu"></i> Menu
+		</button>
+		<div class="navbar-header">
+			{{#link-to 'index' tagName="a" class="navbar-brand"}}Pyron Environmental, Inc.{{/link-to}}
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="dropdown">
+					{{#link-to 'index' tagName="a"}}Home{{/link-to}}
+				</li>
+				<li class="dropdown">
+					{{#link-to 'services' tagName="a"}}Services{{/link-to}}
+				</li>
+				<li class="dropdown">
+					{{#link-to 'projects' tagName="a"}}Projects{{/link-to}}
+				</li>
+				<li class="dropdown">
+					{{#link-to 'about' tagName="a"}}About{{/link-to}}
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					{{#link-to 'contact' tagName="a"}}Contact{{/link-to}}
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
